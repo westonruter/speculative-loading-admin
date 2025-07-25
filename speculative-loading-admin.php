@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Speculative Loading Admin
  * Plugin URI: https://github.com/westonruter/speculative-loading-admin
- * Description: Adds Speculation Rules to the WP Admin for prerendering links with moderate eagerness in the Admin Bar and Admin Menu. Use at your own risk.
+ * Description: Adds speculative loading to the WP Admin for prerendering links with moderate eagerness in the Admin Bar and Admin Menu. Use at your own risk.
  * Requires at least: 6.8
  * Requires PHP: 8.1
  * Version: 0.1.0

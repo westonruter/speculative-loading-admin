@@ -1,6 +1,6 @@
 # Speculative Loading Admin
 
-Adds Speculation Rules to the WP Admin for prerendering links with moderate eagerness in the Admin Bar and Admin Menu. Use at your own risk.
+Adds speculative loading to the WP Admin for prerendering links with moderate eagerness in the Admin Bar and Admin Menu. Use at your own risk.
 
 **Contributors:** [westonruter](https://profile.wordpress.org/westonruter)  
 **Tags:**         performance  
