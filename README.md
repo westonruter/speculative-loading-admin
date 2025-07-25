@@ -18,7 +18,7 @@ All this being said, be mindful of the sustainability concerns for speculative l
 
 There is currently no UI for this plugin. It does not depend on the Speculative Loading plugin.
 
-Here is a demo video of this plugin for how pages can load instantly in WP Admin even with Fast 4G network throttling enabled:
+Here is a demo video of this plugin for how pages can load instantly in WP Admin even with “Fast 4G” network throttling enabled:
 
 [![Speculative Loading in WP Admin with Fast 4G Network Throttling](https://img.youtube.com/vi/41vDiJbApXw/maxresdefault.jpg)](https://youtu.be/41vDiJbApXw)
 
