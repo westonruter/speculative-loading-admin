@@ -1,11 +1,11 @@
 {
-	"name": "wp-plugin-template",
+	"name": "speculative-loading-admin",
 	"author": "Weston Ruter",
 	"license": "GPL-2.0-or-later",
 	"prettier": "@wordpress/prettier-config",
-	"homepage": "https://github.com/westonruter/wp-plugin-template",
-	"repository": "https://github.com/westonruter/wp-plugin-template",
-	"bugs": "https://github.com/westonruter/wp-plugin-template/issues",
+	"homepage": "https://github.com/westonruter/speculative-loading-admin",
+	"repository": "https://github.com/westonruter/speculative-loading-admin",
+	"bugs": "https://github.com/westonruter/speculative-loading-admin/issues",
 	"devDependencies": {
 		"@wordpress/scripts": "*",
 		"husky": "^9",
@@ -20,7 +20,7 @@
 		"lint:js": "wp-scripts lint-js",
 		"lint:md": "wp-scripts lint-md-docs",
 		"packages-update": "wp-scripts packages-update",
-		"plugin-zip": "npm run transform-readme && git archive --format=zip --output=wp-plugin-template.zip --add-file readme.txt HEAD && zip wp-plugin-template.zip -d README.md",
+		"plugin-zip": "npm run transform-readme && git archive --format=zip --output=speculative-loading-admin.zip --add-file readme.txt HEAD && zip speculative-loading-admin.zip -d README.md",
 		"prepare": "husky",
 		"transform-readme": "php tools/transform-readme.php",
 		"verify-version-consistency": "php tools/verify-version-consistency.php"

@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: WP Plugin Template
- * Plugin URI: https://github.com/westonruter/wp-plugin-template
+ * Plugin Name: Speculative Loading Admin
+ * Plugin URI: https://github.com/westonruter/speculative-loading-admin
  * Description: ...
  * Requires at least: 6.8
  * Requires PHP: 8.1
@@ -10,14 +10,14 @@
  * Author URI: https://weston.ruter.net/
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * Update URI: https://github.com/westonruter/wp-plugin-template
- * GitHub Plugin URI: https://github.com/westonruter/wp-plugin-template
+ * Update URI: https://github.com/westonruter/speculative-loading-admin
+ * GitHub Plugin URI: https://github.com/westonruter/speculative-loading-admin
  * Primary Branch: main
  *
- * @package WPPluginTemplate
+ * @package SpeculativeLoadingAdmin
  */
 
-namespace WPPluginTemplate;
+namespace SpeculativeLoadingAdmin;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // @codeCoverageIgnore
