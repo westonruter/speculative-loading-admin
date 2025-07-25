@@ -2,5 +2,5 @@
 /**
  * Constants for PHPStan static analysis.
  *
- * @package SpeculativeLoadingAdmin
+ * @package WestonRuter\SpeculativeLoadingAdmin
  */
