@@ -46,11 +46,19 @@ function print_admin_speculation_rules(): void {
 						array(
 							'selector_matches' => '#wpadminbar a, #adminmenu a',
 						),
+						// Exclude New Post links since causes insertion of auto-draft post.
 						array(
 							'not' => array(
 								'href_matches' => wp_parse_url( admin_url( '/post-new.php' ), PHP_URL_PATH ),
 							),
 						),
+						// Exclude self links.
+						array(
+							'not' => array(
+								'href_matches' => wp_unslash( $_SERVER['REQUEST_URI'] ), // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotValidated, WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
+							),
+						),
+						// Exclude non-idempotent action links.
 						array(
 							'not' => array(
 								'href_matches' => '/*\\?*(^|&)_wpnonce=*',
