@@ -58,8 +58,8 @@ function print_admin_speculation_rules(): void {
 						),
 					),
 				),
-			)
-		)
+			),
+		),
 	);
 
 	wp_print_inline_script_tag(
