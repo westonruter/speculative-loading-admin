@@ -1285,16 +1285,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.19",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "473a8c30e450d87099f76313edcbb90852f9afdf"
-            },
+            "version": "2.1.32",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/473a8c30e450d87099f76313edcbb90852f9afdf",
-                "reference": "473a8c30e450d87099f76313edcbb90852f9afdf",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e126cad1e30a99b137b8ed75a85a676450ebb227",
+                "reference": "e126cad1e30a99b137b8ed75a85a676450ebb227",
                 "shasum": ""
             },
             "require": {
@@ -1339,7 +1334,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-21T19:58:24+00:00"
+            "time": "2025-11-11T15:18:17+00:00"
         },
         {
             "name": "slevomat/coding-standard",
@@ -1649,5 +1644,5 @@
     "platform-overrides": {
         "php": "8.1"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
