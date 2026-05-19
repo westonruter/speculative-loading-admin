@@ -4,7 +4,7 @@ Adds speculative loading to the WP Admin for prerendering links with moderate ea
 
 **Contributors:** [westonruter](https://profile.wordpress.org/westonruter)  
 **Tags:**         performance  
-**Tested up to:** 6.9  
+**Tested up to:** 7.0  
 **Stable tag:**   0.1.0  
 **License:**      [GPLv2 or later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
