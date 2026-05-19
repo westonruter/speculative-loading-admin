@@ -2,16 +2,24 @@
 <ruleset name="speculative-loading-admin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
 	<config name="text_domain" value="speculative-loading-admin"/>
 
-	<rule ref="vendor/wpackagist-plugin/plugin-check/vendor/plugin-check/phpcs-sniffs/PluginCheck/ruleset.xml" />
-	<!-- TODO: Once a new version of Plugin Check is released, replace the following line with a reference to vendor/wpackagist-plugin/plugin-check/vendor/plugin-check/phpcs-rulesets/plugin-check.ruleset.xml -->
-	<rule ref="tools/phpcs/plugin-check.ruleset.xml" />
-
 	<rule ref="PHPCompatibility"/>
 	<config name="testVersion" value="7.2-"/>
 
 	<rule ref="WordPress-Docs"/>
 	<rule ref="WordPress-Extra" />
 	<rule ref="WordPress.WP.I18n"/>
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="speculative_loading_admin"/>
+				<element value="WestonRuter\SpeculativeLoadingAdmin"/>
+			</property>
+		</properties>
+		<exclude-pattern>tools/*</exclude-pattern>
+	</rule>
+	<rule ref="WordPress.WP.AlternativeFunctions.json_encode_json_encode">
+		<exclude-pattern>tools/*</exclude-pattern>
+	</rule>
 
 	<arg value="ps"/>
 	<arg name="extensions" value="php"/>
