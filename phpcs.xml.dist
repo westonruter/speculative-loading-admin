@@ -12,7 +12,7 @@
 		<properties>
 			<property name="prefixes" type="array">
 				<element value="speculative_loading_admin"/>
-				<element value="SpeculativeLoadingAdmin"/>
+				<element value="WestonRuter\SpeculativeLoadingAdmin"/>
 			</property>
 		</properties>
 		<exclude-pattern>tools/*</exclude-pattern>
