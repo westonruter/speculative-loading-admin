@@ -21,6 +21,9 @@
 		"lint-staged": "^17",
 		"typescript": "npm:@typescript/typescript6@^6.0.2"
 	},
+	"overrides": {
+		"@typescript/native": "$@typescript/native"
+	},
 	"scripts": {
 		"check-engines": "wp-scripts check-engines",
 		"check-licenses": "wp-scripts check-licenses",
